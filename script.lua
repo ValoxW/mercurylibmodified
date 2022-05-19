@@ -424,7 +424,7 @@ function Library:create(options)
 		Name = "paranoid.label",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://github.com/deeeity/mercury-lib"
+		Link = "https://paranoid.label/"
 	}, options)
 	
 	if getgenv and getgenv().MercuryUI then
